@@ -1,0 +1,51 @@
+
+.container{
+    background-color: #202020;
+    width: 400px;
+    height: 350px;
+    margin: 0 auto;
+    padding: 40px 10px 50px 30px;
+    border-radius: 10px;
+    margin-top: 80px;
+}
+.display{
+    margin-top: 0px;
+    margin-bottom: 30px;
+    
+}
+button{
+    width: 90px;
+    height: 50px;
+    font-size: 20px;
+    border: none;
+    background: #333333;
+    color: white;
+    cursor: pointer;
+    border-radius: 10px;
+}
+input{
+    width: 370px;
+    height: 100px;
+    text-align: right;
+    font-size: 28px;
+    color: black;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    background-color: #C9C9C7;
+    
+}
+input::placeholder {
+    color: black;
+}
+.numbers{
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: 90px 90px 90px 90px;
+    grid-template-rows: 50px  50px 50px 50px;
+    gap: 5px;
+}
+
+.ope{
+    background-color: #FFC400;
+}
